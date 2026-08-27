@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noval Geovany | Industrial Engineer (HSE, Usability & HR)</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+  <!-- NAVIGATION -->
+  <nav class="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-md border-b border-slate-200 z-50">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="font-bold text-lg text-slate-900 tracking-tight">Noval Geovany<span class="text-blue-600">.</span></a>
+      <div class="hidden md:flex gap-8 text-sm font-medium text-slate-600">
+        <a href="#about" class="hover:text-blue-600 transition">About</a>
+        <a href="#competencies" class="hover:text-blue-600 transition">Expertise</a>
+        <a href="#projects" class="hover:text-blue-600 transition">Portfolio</a>
+        <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+      </div>
+      <a href="#contact" class="px-4 py-2 bg-slate-900 text-white text-sm font-medium rounded-lg hover:bg-blue-600 transition">Get in Touch</a>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="about" class="pt-32 pb-20 border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      
+      <!-- Text Area -->
+      <div class="lg:col-span-7 space-y-6">
+        <div class="inline-flex gap-2 flex-wrap">
+          <span class="px-3 py-1 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded-full border border-emerald-200">HSE & OHS Management</span>
+          <span class="px-3 py-1 bg-blue-50 text-blue-700 text-xs font-semibold rounded-full border border-blue-200">Usability & Ergonomics</span>
+          <span class="px-3 py-1 bg-purple-50 text-purple-700 text-xs font-semibold rounded-full border border-purple-200">HR & Human Capital</span>
+        </div>
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
+          Safe Environment, Ergonomic Workspaces, High-Performing People.
+        </h1>
+        <p class="text-lg text-slate-600 leading-relaxed">
+          Hi, I am Noval Geovany an Industrial Engineering graduate specializing in Health, Safety, & Environment (HSE), Work System Ergonomics & Usability, and Strategic Human Resource Management.
+        </p>
+        <div class="flex flex-wrap gap-4 pt-2">
+          <a href="#projects" class="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg shadow-sm hover:bg-blue-700 transition">
+            View Projects
+          </a>
+          <a href="./cv.pdf" class="px-6 py-3 bg-white text-slate-700 font-medium rounded-lg border border-slate-300 hover:bg-slate-100 transition">
+            Download Resume
+          </a>
+        </div>
+      </div>
+
+      <!-- Photo Slot -->
+      <div class="lg:col-span-5 flex justify-center items-center">
+        <div class="relative w-72 h-80 sm:w-80 sm:h-96 rounded-2xl bg-slate-200 overflow-hidden shadow-xl border-4 border-white flex-shrink-0">
+          <img 
+            src="./foto.png" 
+            alt="Noval Geovany" 
+            class="w-full h-full object-cover block"
+            onerror="this.style.display='none'; this.parentElement.classList.add('flex','items-center','justify-center'); this.parentElement.innerHTML='<span class=\"text-xs text-slate-400 font-medium\">Image Not Found</span>';"
+          >
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CORE COMPETENCIES -->
+  <section id="competencies" class="py-20 bg-white border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="mb-12">
+        <h2 class="text-2xl font-bold text-slate-900">Core Expertise</h2>
+        <p class="text-slate-500">Integrating operational safety, cognitive ergonomics, and workforce optimization.</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+        <!-- HSE -->
+        <div class="p-6 bg-slate-50 rounded-xl border border-slate-200 hover:border-emerald-500 transition">
+          <div class="w-10 h-10 mb-4 bg-emerald-100 text-emerald-700 rounded-lg flex items-center justify-center font-bold">01</div>
+          <h3 class="font-bold text-slate-900 mb-2">HSE & Risk Assessment</h3>
+          <p class="text-sm text-slate-600">Hazard identification and mitigation using HIRADC and Job Safety Analysis (JSA) to ensure compliance and zero-accident work culture.</p>
+        </div>
+
+        <!-- Usability & Ergonomics -->
+        <div class="p-6 bg-slate-50 rounded-xl border border-slate-200 hover:border-blue-500 transition">
+          <div class="w-10 h-10 mb-4 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center font-bold">02</div>
+          <h3 class="font-bold text-slate-900 mb-2">Usability & Ergonomics</h3>
+          <p class="text-sm text-slate-600">Evaluating user experience, cognitive load, and human-system interactions to design intuitive, ergonomic, and user-centric interfaces.</p>
+        </div>
+
+        <!-- HR -->
+        <div class="p-6 bg-slate-50 rounded-xl border border-slate-200 hover:border-purple-500 transition">
+          <div class="w-10 h-10 mb-4 bg-purple-100 text-purple-700 rounded-lg flex items-center justify-center font-bold">03</div>
+          <h3 class="font-bold text-slate-900 mb-2">Human Resources & Workload</h3>
+          <p class="text-sm text-slate-600">Strategic manpower planning, safety induction, and workload analysis to enhance employee performance and operational efficiency.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PROJECTS -->
+  <section id="projects" class="py-20 border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="mb-12">
+        <h2 class="text-2xl font-bold text-slate-900">Featured Case Studies</h2>
+        <p class="text-slate-500">Data-driven engineering solutions focused on safety, usability, and workforce excellence.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Project Card 1: HSE -->
+        <div class="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+          <div class="h-48 bg-slate-200 overflow-hidden">
+            <img src="./k3.jpeg" alt="HSE Management System" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <div>
+              <div class="flex gap-2 mb-2">
+                <span class="px-2 py-0.5 bg-emerald-100 text-emerald-800 text-xs font-semibold rounded">HSE</span>
+                <span class="px-2 py-0.5 bg-slate-100 text-slate-600 text-xs font-semibold rounded">HIRADC</span>
+              </div>
+              <h3 class="font-bold text-slate-900 text-lg">OHS Management System – Plantation Group 1</h3>
+              <p class="text-sm text-slate-600 mt-2">Executed HIRADC documentations and hazard evaluations across operational sectors to minimize unsafe acts and working conditions.</p>
+            </div>
+            <div class="pt-4 border-t border-slate-100">
+              <p class="text-xs text-emerald-600 font-semibold mb-3">Impact: Reduced high-risk workplace hazards down to Low-Medium rating</p>
+              <!-- <a href="#" class="text-sm font-medium text-slate-900 hover:text-emerald-600 flex items-center gap-1">Read Case Study &rarr;</a> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 2: Usability -->
+        <div class="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+          <div class="h-48 bg-slate-200 overflow-hidden">
+            <img src="./fti.png" alt="Usability Redesign" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <div>
+              <div class="flex gap-2 mb-2">
+                <span class="px-2 py-0.5 bg-blue-100 text-blue-800 text-xs font-semibold rounded">Usability</span>
+                <span class="px-2 py-0.5 bg-slate-100 text-slate-600 text-xs font-semibold rounded">QUIS & SUS</span>
+              </div>
+              <h3 class="font-bold text-slate-900 text-lg">Usability Redesign of Harmony FTI ITERA Platform</h3>
+              <p class="text-sm text-slate-600 mt-2">Analyzed user cognitive load and evaluated system usability to streamline navigation architecture and user satisfaction.</p>
+            </div>
+            <div class="pt-4 border-t border-slate-100">
+              <p class="text-xs text-blue-600 font-semibold mb-3">Impact: Increased System Usability Scale (SUS) score significantly</p>
+              <!-- <a href="#" class="text-sm font-medium text-slate-900 hover:text-blue-600 flex items-center gap-1">Read Case Study &rarr;</a> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 3: HR -->
+        <div class="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+          <div class="h-48 bg-slate-200 overflow-hidden">
+            <img src="./hrd.jfif" alt="Workorder & Onboarding" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <div>
+              <div class="flex gap-2 mb-2">
+                <span class="px-2 py-0.5 bg-purple-100 text-purple-800 text-xs font-semibold rounded">HR</span>
+                <span class="px-2 py-0.5 bg-slate-100 text-slate-600 text-xs font-semibold rounded">Onboarding</span>
+              </div>
+              <h3 class="font-bold text-slate-900 text-lg">Work Order & Safety Induction Socialization</h3>
+              <p class="text-sm text-slate-600 mt-2">Developed structured onboarding programs and safety orientation protocols to accelerate new-hire readiness and compliance.</p>
+            </div>
+            <div class="pt-4 border-t border-slate-100">
+              <p class="text-xs text-purple-600 font-semibold mb-3">Impact: Boosted team onboarding efficiency & manpower utilization by 15%</p>
+              <!-- <a href="#" class="text-sm font-medium text-slate-900 hover:text-purple-600 flex items-center gap-1">Read Case Study &rarr;</a> -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & FOOTER -->
+  <section id="contact" class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-6 text-center space-y-6">
+      <h2 class="text-3xl font-bold text-slate-900">Let's Connect</h2>
+      <p class="text-slate-600">Open for professional collaborations and career opportunities in HSE, Usability Engineering, or Human Resources.</p>
+      
+      <div class="pt-4 flex justify-center gap-4">
+        <a href="mailto:stanislausnoval4@gmail.com" class="px-6 py-3 bg-slate-900 text-white font-medium rounded-lg hover:bg-blue-600 transition">
+          Send Email
+        </a>
+        <a href="https://www.linkedin.com/in/stanislaus-noval-geovany-aab130236/" class="px-6 py-3 bg-slate-100 text-slate-700 font-medium rounded-lg hover:bg-slate-200 transition">
+          LinkedIn Profile
+        </a>
+      </div>
+
+      <footer class="pt-16 text-xs text-slate-400">
+        &copy; 2026 Noval Geovany. All rights reserved.
+      </footer>
+    </div>
+  </section>
+
+</body>
+</html>
